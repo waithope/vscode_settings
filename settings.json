@@ -1,0 +1,62 @@
+{
+    "editor.cursorStyle": "block",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 25,
+    "editor.fontWeight": "400",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "Monaco, 'Menlo', Consolas",
+    "editor.renderWhitespace": "boundary",
+    // Controls if suggestions should automatically show up while typing
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.trimTrailingWhitespace": true,
+    "vim.disableExtension": false,    //"code-runner.runInTerminal": true,
+    "workbench.colorTheme": "Gruvbox Dark (Medium)",
+    "editor.fontSize": 15,
+    "vim.cmdLineInitialColon": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive":[
+        {
+            "before": ["<C-h>"],
+            "after": ["<Left>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": [",", "v"],
+            "after": []
+        },
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        }
+    ],
+    // disabled certain keybindings in vim
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "workbench.iconTheme": "vscode-icons"
+}
