@@ -3,13 +3,13 @@
 //     git remote remove origin
 // git remote add origin git@github.com:Username/Your_Repo_Name.git
 // 之后你还需要重新设置track branch，比如：
-// git branch --set-upstream-to=origin/master master
-    "files.associations": {
-        "string.h": "c",
-        "stdlib.h": "c",
-        "ctype.h": "c",
-        "stdio.h": "c",
-        "stddef.h": "c"
-    }
+// git branch --set-upstream-t
+    // "files.associations": {
+    //     "string.h": "c",
+    //     "stdlib.h": "c",
+    //     "ctype.h": "c",
+    //     "stdio.h": "c",
+    //     "stddef.h": "c"
+    // }
 
 }
