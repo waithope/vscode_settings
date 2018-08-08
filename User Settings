@@ -1,0 +1,105 @@
+{
+    "editor.cursorStyle": "line",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 25,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "normal",
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco, Menlo, Consolas",
+    "editor.renderWhitespace": "none",
+    // Controls if suggestions should automatically show up while typing
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+
+    "files.trimTrailingWhitespace": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/",
+
+      "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+//   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+    "clang.executable": "D:\\LLVM\\bin\\clang.exe",
+
+    "vim.disableExtension": false,
+    "vim.cmdLineInitialColon": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": [",", "v"],
+            "after": []
+        },
+        {
+            "before": ["/"],
+            "after": ["leader", "leader", "/"]
+        },
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        }
+    ],
+    // disabled certain keybindings in vim
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "vim.statusBarColorControl": false,
+    "vim.easymotionMarkerFontFamily": "Monaco",
+
+    "workbench.sideBar.location": "left",
+    "workbench.colorCustomizations": {
+        // "editorIndentGuide.background": "#404040",
+        // "editor.selectionBackground": "#f7e0b0ee",
+        "editor.selectionBackground": "#669699ee",
+        // "editorBracketMatch.border": "#757171",
+        // "editorBracketMatch.background": "#757171",
+        // "editor.findMatchBackground": "#02aa56",
+        // "editor.lineHighlightBackground": "#3d3b3be3",
+        // "editorCursor.foreground": "#ffffff",
+        // "statusBar.background" : "#222225",
+        // "statusBar.noFolderBackground" : "#212121",
+        // "statusBar.debuggingBackground": "#263238"
+        // "statusBar.debuggingBackground": "#511f1f"
+    },
+    "clock.dateFormat": "HH:MM KEEP!",
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "extensions.autoUpdate": false,
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.visible": true,
+    "files.autoSaveDelay": 500,
+    "workbench.colorTheme": "Atom Material Theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "C_Cpp.autocomplete": "Disabled",
+    "editor.occurrencesHighlight": true,
+    "editor.parameterHints": false,
+    "code-runner.enableAppInsights": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "graphvizPreview.dotPath": "D:\\Usr_Local\\graphviz\\bin\\dot.exe",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+}
